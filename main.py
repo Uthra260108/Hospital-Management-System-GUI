@@ -20,7 +20,6 @@ def setup_database():
         print(f"Error: {err}")
         raise SystemExit(1)
 
-
 # Create required tables
 def create_tables(cursor):
     cursor.execute("""
